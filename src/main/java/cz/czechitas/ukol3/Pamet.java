@@ -6,10 +6,13 @@ public class Pamet {
     public long getKapacita() {
         return kapacita;
     }
+
     public void setKapacita(long kapacita) {
-        this.kapacita=kapacita;
+        this.kapacita = kapacita;
     }
-    public String toString(){
+
+    public String toString() {
         return "kapacita:" + kapacita;
     }
+
 }

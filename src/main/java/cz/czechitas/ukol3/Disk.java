@@ -7,16 +7,20 @@ public class Disk {
     public long getKapacita() {
         return kapacita;
     }
-    public.void setKapacita(long kapacita) {
+
+    public void setKapacita(long kapacita) {
         this.kapacita = kapacita;
     }
+
     public long getVyuziteMisto() {
         return vyuziteMisto;
     }
+
     public void setVyuziteMisto(long vyuziteMisto) {
         this.vyuziteMisto = vyuziteMisto;
     }
+
     public String toString() {
-        return "kapacita:" + kapacita + ". Vyuzite Misto:" + vyuziteMisto;
+        return "kapacita:" + kapacita + ", Vyuzite Misto:" + vyuziteMisto;
     }
 }
