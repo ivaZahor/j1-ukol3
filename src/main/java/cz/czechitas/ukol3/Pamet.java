@@ -12,7 +12,6 @@ public class Pamet {
     }
 
     public String toString() {
-        return "kapacita:" + kapacita;
+        return "Pamet: kapacita = " + kapacita;
     }
-
 }
